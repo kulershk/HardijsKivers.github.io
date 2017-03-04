@@ -45,7 +45,7 @@ function timer(){
       doKill();
     };
   }
-  setTimeout(function(){timer();},0);
+  setTimeout(function(){timer();},100);
 }
 
 
