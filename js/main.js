@@ -72,6 +72,8 @@ jQuery(function($) {
     $('.kills').html(0);
     $('.luck').html(0);
     $('.table-luck').html("");
+    $('.luckyest').html("1000000");
+    $('.unluckyest').html("0");
   });
 
   $('.clean-luck').click( function() {
