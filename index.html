@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CRM</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="/">
+                        CRM Admin Panel
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Sākums</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Menu -->
+        <nav class="navbar-inverse">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Link <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>
+                        <a href="#">Link</a>
+                    </li>                    
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <div class="well">
+                            <table class="table table-striped">
+                                <tr>
+                                    <th>1 / <input type="text" class="chance" value="512" /> | Kills: <span class="kills"><span></th><th>Luck: <span class="luck"><span></th>
+                                </tr>                                
+                                <tr>
+                                    <td>
+                                        <button class="btn btn-success start-luck">Start</button> | 
+                                        <button class="btn btn-danger stop-luck">Stop</button> | 
+                                        <button class="btn btn-warning reset-luck">Reset</button> |
+                                        <button class="btn btn-warning clean-luck">Clean</button>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Speed: </td>
+                                    <td>
+                                    <div class="radio">
+                                        <label><input type="radio" name="speed" value="1" checked />Normal</label>
+                                        <label><input type="radio" name="speed" value="5" />Fast</label>
+                                        <label><input type="radio" name="speed" value="10" />Insane</label>
+                                        <label><input type="radio" name="speed" value="100" />Enourmous</label>
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Luckyest: <span class="luckyest">10000000<span></td><td>UnLuckyest: <span class="unluckyest">0<span></td>
+                                </tr>                                
+                            </table>
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-md-6">
+
+                        <div class="well">
+                            <div class="table-luck">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Menu Toggle Script -->
+    
+
+</body>
+
+</html>
